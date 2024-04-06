@@ -11,6 +11,7 @@ const CartItem = sequelize.define('cartItem', {
   },
   quantity: Sequelize.INTEGER,
   price: Sequelize.INTEGER
+  price: Sequelize.INTEGER
 
 
 });
